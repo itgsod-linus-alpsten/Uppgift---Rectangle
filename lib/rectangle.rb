@@ -12,7 +12,7 @@ class Rectangle
   end
 
   def circumference
-    @width*2+@height*2
+    (@width+@height)*2
   end
 end
 
